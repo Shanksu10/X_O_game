@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameboard {
+  width: 300px;
+  height: 300px;
+  border: solid 1px black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.turnMessage, .winningMessage {
+  margin-top: 20px;
+}
+
+.X, .O {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.X {
+  color: red;
+}
+.O {
+  color: blue;
+}
